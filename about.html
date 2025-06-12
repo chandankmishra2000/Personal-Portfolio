@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me | Chandan Mishra</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f4f9ff;
+        color: #212529;
+      }
+
+      .navbar {
+        background-color: #0d1b2a;
+      }
+
+      .navbar-brand,
+      .nav-link {
+        color: #fff !important;
+      }
+
+      .nav-link:hover {
+        color: #00b4d8 !important;
+      }
+
+      .section {
+        padding: 60px 20px;
+        animation: fadeInUp 1s ease forwards;
+      }
+
+      h1, h3 {
+        color: #0d1b2a;
+      }
+
+      .btn-download {
+        background-color: #0d1b2a;
+        color: #fff;
+        transition: transform 0.3s ease;
+      }
+
+      .btn-download:hover {
+        background-color: #0077b6;
+        transform: scale(1.05);
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      ul {
+        padding-left: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Chandan Mishra</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon bg-light rounded"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="section container">
+      <div class="text-center mb-5">
+        <h1>About Me</h1>
+        <p class="lead">Full Stack Developer | Passionate about Clean Code & Scalable Systems</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h3>🔧 Technical Knowledge</h3>
+          <p>
+            I possess strong knowledge of both frontend and backend technologies. My experience ranges from crafting responsive UI to building scalable APIs and databases.
+          </p>
+
+          <h3>🎯 Goals & Destination</h3>
+          <p>
+            My goal is to become a highly skilled backend developer who contributes to meaningful, large-scale products. I aim to grow with a company that values innovation, quality, and teamwork.
+          </p>
+
+          <h3>💼 Professionalism</h3>
+          <p>
+            I believe in continuous learning, clean architecture, documentation, and effective communication. I bring discipline and problem-solving ability to every team I join.
+          </p>
+
+          <h3>💻 Frontend Skills</h3>
+          <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Bootstrap, Tailwind CSS</li>
+            <li>React.js, JSX, DOM Manipulation</li>
+            <li>Responsive & Mobile-first Design</li>
+          </ul>
+
+          <h3>🛠 Backend Skills</h3>
+          <ul>
+            <li>Node.js, Express.js</li>
+            <li>MongoDB, Mongoose</li>
+            <li>RESTful APIs, JSON</li>
+            <li>Authentication (JWT, bcrypt)</li>
+            <li>Git, GitHub, Postman, dotenv</li>
+          </ul>
+
+          <div class="text-center">
+            <a href="Resume_Chandan_Mishra.pdf" download class="btn btn-download mt-4">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
